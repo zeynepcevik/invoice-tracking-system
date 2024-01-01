@@ -1,10 +1,12 @@
-INVOICE TRACKING SYSTEM
+# INVOICE TRACKING SYSTEM
 
-Project Topic:
+## Project Topic:
+
 This project includes an invoice tracking system application. The user can add a file containing customer information to the system. This information includes customer name-surname, invoice type, 
 invoice amount, priority level and transaction time. The added customer information is tracked using a priority queue data structure.
 
-What has been done in the Project:  
+## What has been done in the Project:  
+
 • Read File First of all, I dynamically read the file. After the user selects the file from the  file selection screen, I print the file content to the list.  
 • List by Priority: Then I added a button to list by priority. Because the transactions  processed from us are priority-based, I created a new button and list so that the user  can track the 
   correctness of the transactions. In this button, I sorted the customers  according to their priorities and printed them on the list.  
